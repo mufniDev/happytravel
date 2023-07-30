@@ -649,7 +649,7 @@ footer p
 /* Media query */
 
 /* Laptop */
-@media (min-width: 998px)
+@media (min-width: 980px)
 {
   .menu-items {
     display: flex;
