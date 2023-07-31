@@ -697,7 +697,44 @@ footer p
 
 }
 
-/* Tablet & landscape */
+/* laptop */
+@media (max-width: 802px)
+{
+  .menu-items {
+    display: flex;
+  }
+  .burger {
+    display: none;
+  }
+  .menu-wrapper {
+    display: none;
+  }
+  .img-form
+  {
+    flex-direction: row;
+    gap: 2em;
+  }
+  .our-title 
+  {
+    height: 180px;
+    font-size: 1.7rem;
+  }
+  .package-container 
+  {
+    gap: 5%;
+  }
+  .package-detail b
+  {
+  font-size: 1.1rem;
+  }
+  .closing-container h1 
+  {
+    font-size: 1.5rem;
+  }
+}
+
+
+/* Tablet */
 @media  (max-width: 768px)
 {
   .menu-items {
