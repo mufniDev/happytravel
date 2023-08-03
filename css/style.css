@@ -470,10 +470,6 @@ select
   background: none;
   font-weight: bold;
 }
-select:hover
-{
-  background: red;
-}
 label
 {
   font-weight: bold;
